@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --shadow-color: rgba(255, 255, 255, 0.75);
+  --color: rgb(255, 255, 255);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  border: var(--color) 2px solid;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Cabin";
+  color: var(--color);
+  box-shadow: 1px 0px 11px 0px var(--shadow-color);
+  -webkit-box-shadow: 1px 0px 11px 0px var(--shadow-color);
+  -moz-box-shadow: 1px 0px 11px 0px var(--shadow-color);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.2em;
+}
+
+.blinker {
+  font-weight: bold;
+  font-family: "Cabin";
+  color: var(--color);
+  position: absolute;
+  font-size: 20px;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.colorbtn {
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-family: "Cabin";
+  color: var(--color);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 1px 0px 30px 0px var(--shadow-color);
+  -webkit-box-shadow: 1px 0px 30px 0px var(--shadow-color);
+  -moz-box-shadow: 1px 0px 30px 0px var(--shadow-color);
+  transition: 0.3s;
+}
+
+.section {
+  display: flex;
+  width: 15em;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copy {
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+}
