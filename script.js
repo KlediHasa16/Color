@@ -45,5 +45,4 @@ function lightColor(){
         root.style.setProperty("--color","rgb(255, 255, 255)")
     }
 }
-
 //rgb(12, 54, 78)
